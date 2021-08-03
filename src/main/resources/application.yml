@@ -29,3 +29,10 @@ spring:
 mybatis:
   type-aliases-package: com.impi.domain
 
+#分页pageHelper
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+
+
